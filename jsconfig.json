@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "compilerOptions":{
         "baseUrl":"./",
         "paths":{
@@ -7,3 +8,13 @@
     },
     "exclude": ["node_modules","dist"]
 }
+=======
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+        "@/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"] // 除了这两个目录以外,其他的目录都可以使用上述的设置
+}
+>>>>>>> 3b175b2e9c4a299795fe233fab78f29ca6509d71
